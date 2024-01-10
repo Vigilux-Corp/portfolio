@@ -1,8 +1,11 @@
-import styles from "../style";
+import { motion } from "framer-motion";
+
+import styles from "../styles";
 import React from 'react'
 
 function Hero() {
   return (
+    <section>
       
 <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
   
@@ -135,7 +138,16 @@ function Hero() {
     
   </div>
 
+  
+
+
+
+  
 </div>
+
+
+
+</section>
 
 
   );
