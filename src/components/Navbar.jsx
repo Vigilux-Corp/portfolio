@@ -31,7 +31,7 @@ function Navbar() {
         </ul>
       </div>
       <div class="hidden lg:block ml-auto">
-        <a class="relative group inline-flex h-8 w-20 items-center justify-center border border-white rounded-lg overflow-hidden" href="/about">
+        <a class="relative group inline-flex h-8 w-20 items-center justify-center border border-white rounded-lg overflow-hidden" href="#about">
           <span class="relative z-10 font-semibold text-white group-hover:text-black transition duration-500">About Us</span>
           <div class="absolute top-0 left-0 h-full w-28 transform -translate-x-full -ml-1 group-hover:-translate-x-0 bg-white transition duration-500 ease-linear"></div>
         </a>
