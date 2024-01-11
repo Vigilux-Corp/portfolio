@@ -5,8 +5,8 @@ import React from 'react'
 function Navbar() {
   return (
     <section class="bg-black">
-  <nav>
-    <div class="flex py-5 px-4 md:px-14 items-center">
+  <nav className='fixed top-0 left-0 w-full z-10 bg-pink-900'>
+    <div class="flex py-6 px-4 md:px-14 items-center">
       <a class="inline-block text-2xl font-bold mr-16 xl:mr-24" href="#">
         <img src="suncealand-assets/logos/suncealand-white.svg" alt="" />
       </a>
