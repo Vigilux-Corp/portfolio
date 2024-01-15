@@ -26,7 +26,7 @@ function Navbar() {
             </div>
           </li>
           <li class="mr-16"><a class="inline-block text-base font-medium text-white" href="#">Community</a></li>
-          <li class="mr-16"><a class="inline-block text-base font-medium text-white" href="#">Story</a></li>
+          <li class="mr-16"><a class="inline-block text-base font-medium text-white" href="#Feedbacks">Story</a></li>
           <li><a class="inline-block text-base font-medium text-white" href="#">Pricing</a></li>
         </ul>
       </div>

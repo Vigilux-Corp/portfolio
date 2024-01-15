@@ -16,8 +16,6 @@ import {  facebook,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -25,7 +23,10 @@ import {  facebook,
   carrent,
   jobit,
   tripguide,
-  threejs,  } from "../assets";
+  albanus,
+  rolins,
+  vin,
+    } from "../assets";
 
 export const navLinks = [
   {
@@ -108,9 +109,9 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
+  
     
-  },
+  
   
 ];
 
@@ -172,27 +173,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    "I doubted achieving a website as stunning as our product at Vigilux Corporation—proven wrong.",
+    name:  "Rollins Shadrack",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "EasBerry",
+    image:"" ,
+  },
+  {
+    testimonial:
+      "I've never met a web developers who truly cares about their clients' success like Vigilux Corporation.",
+    name: "Albanus Mutua",
+    designation: "COO",
+    company: "Jeilo",
+    image: "./assets/5.jpeg",
+  },
+  {
+    testimonial:
+    "Vigilux boosted our website, resulting in a 50% traffic surge. Grateful beyond words!",
+    name: "Vincent Otieno",
+    designation: "CTO",
+    company: "VIN'SA Enterprises",
+    image: "../assets/albanus.jpeg",
   },
 ];
 
@@ -241,7 +242,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Online Booking Platform",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -356,4 +357,4 @@ export const socialMedia = [
   },
 ];
 
-export {services, technologies, experiences, projects};
+export {services, technologies, experiences, testimonials, projects, };

@@ -37,6 +37,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import vin from "./vin.jpeg";
+import rolins from "./rolins.jpeg";
+import albanus from "./albanus.jpeg";
 
 export {
   logo,
@@ -71,6 +74,9 @@ export {
   instagram,
   linkedin,
   twitter,
+  vin,
+  rolins,
+  albanus,
 
 
 };
